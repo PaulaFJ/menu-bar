@@ -4,7 +4,7 @@ import { House, ChartBar, ShoppingCart, User } from 'phosphor-react'
 function App() {
 
   return (
-    <div className="bg-brand-gray-700 flex justify-center md:items-center items-end w-full h-screen">
+    <div className="bg-brand-gray-700 flex justify-center items-center w-full h-full">
       <div className="flex w-26 md:h-100 h-20 bg-brand-gray-900">
         <Button.Root>
           <House size={32} />
